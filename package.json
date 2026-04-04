@@ -1,0 +1,19 @@
+{
+  "name": "Dark-npro",
+  "displayName": "Dark npro",
+  "version": "0.0.1",
+  "publisher": "nino",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Npro dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/theme.json"
+      }
+    ]
+  }
+}
