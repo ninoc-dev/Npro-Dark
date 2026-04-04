@@ -51,7 +51,6 @@ code --install-extension ninoc-dev.npro-dark
    ```
 6. Select the file  
 
----
 
 ## 🧩 Usage
 
@@ -59,7 +58,6 @@ code --install-extension ninoc-dev.npro-dark
 2. Search: `Color Theme`  
 3. Select **Npro Dark**
 
----
 
 ## 🎯 Supported Languages
 
@@ -69,7 +67,6 @@ code --install-extension ninoc-dev.npro-dark
 - JSON, YAML, Markdown  
 - and more  
 
----
 
 ## ⚙️ Customization
 
@@ -119,8 +116,6 @@ Custom CSS and JS Loader (by be5invis)
 ```
 
 > ⚠️ Uses unsupported VS Code customization — may break on updates
-
----
 
 ## 🤝 Contributing
 
