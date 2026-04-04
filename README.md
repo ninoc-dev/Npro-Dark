@@ -104,6 +104,55 @@ Override in `settings.json`:
   }
 }
 ```
+---
+
+## 🎨 Custom UI (Centered Activity Bar)
+
+This theme can be enhanced using custom CSS to center the VS Code activity bar.
+
+### Requirements
+
+Extension:
+- **Custom CSS and JS Loader** by *be5invis*
+
+### CSS
+
+```css
+.composite-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.composite-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.monaco-action-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actions-container {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  align-items: center;
+}
+```
+
+### Usage
+
+1. Install the extension  
+2. Add the CSS via your custom loader setup  
+3. Reload VS Code
+
+> ⚠️ Note: This uses unsupported VS Code customization and may break after updates
 
 ---
 
@@ -119,7 +168,8 @@ Override in `settings.json`:
 ## License
 
 [MIT](LICENSE)
+[Dark Islands](https://github.com/bwya77/vscode-dark-islands)
 
 ---
 
-Made with ❤️ for late-night coding
+Made with ❤️ for late-night coding by NINO
