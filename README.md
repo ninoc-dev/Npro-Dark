@@ -34,10 +34,9 @@ Calm, deep tones designed for long coding sessions without eye strain.
 
 ## Screenshots
 
-> ![JavaScript](screenshots/js.png)
+> ![JavaScript](screenshots/s1.png)
+> ![JavaScript](screenshots/s2.png)
 > *JavaScript*
-
-*(Add screenshots in `/screenshots` folder)*
 
 ---
 
