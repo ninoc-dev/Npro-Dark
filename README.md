@@ -1,121 +1,100 @@
-# 🏝️ Islands Dark
+# 🏝️ Npro Dark
 
-> A modern, dark theme for Visual Studio Code inspired by oceanic and island aesthetics.
+> A modern, minimal dark theme for Visual Studio Code.
 
-Calm, deep tones designed for long coding sessions without eye strain.
-
----
-
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| **Deep Background** | `#181a1d` — easy on the eyes for extended use |
-| **Balanced Palette** | Carefully chosen colors for syntax clarity |
-| **UI Consistency** | Follows VS Code conventions with unique touches |
-| **High Readability** | Clear distinction between code elements |
+Clean, calm, and distraction-free — built for long coding sessions.
 
 ---
 
-## Color Palette
+## ✨ Features
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Background | `#181a1d` | Editor, panels |
-| Foreground | `#bcbec4` | Primary text |
-| Accent Blue | `#548af7` | Keywords, links |
-| Green | `#73b00a` | Strings, success |
-| Red | `#f75464` | Errors, deletions |
-| Orange | `#e8a33e` | Warnings, numbers |
-| Purple | `#d09cf7` | Functions, special |
-| Cyan | `#2aacb8` | Types, operators |
+- Deep background (`#181a1d`) for reduced eye strain  
+- Clean, balanced syntax highlighting  
+- Minimal UI noise  
+- High readability across languages  
 
 ---
 
-## Screenshots
+## 🎨 Color Palette
 
-> ![JavaScript](screenshots/s1.png)
-> ![JavaScript](screenshots/s2.png)
-> *JavaScript*
+- Background: `#181a1d`  
+- Foreground: `#bcbec4`  
+- Blue: `#548af7`  
+- Green: `#73b00a`  
+- Red: `#f75464`  
+- Orange: `#e8a33e`  
+- Purple: `#d09cf7`  
+- Cyan: `#2aacb8`  
 
 ---
 
-## Installation
+## 📸 Screenshots
 
-### VS Code Marketplace
+![Preview](screenshots/s1.png)  
+![Preview](screenshots/s2.png)
+
+---
+
+## 🚀 Installation
+
+### Marketplace (coming soon)
 
 ```bash
-code --install-extension your-publisher.islands-dark
-```
-
-Or manually:
-
-1. Open **Extensions** (`Ctrl+Shift+X`)
-2. Search **"Islands Dark"**
-3. Click **Install**
-
-### Manual (VSIX)
-
-1. Download `.vsix` from [Releases](../../releases)
-2. Extensions → `...` → **Install from VSIX...**
-
-### From Source
-
-```bash
-git clone https://github.com/your-username/islands-dark.git
-cd islands-dark
-npm install
-npm run package
-# Install generated .vsix
+code --install-extension ninoc-dev.npro-dark
 ```
 
 ---
 
-## Usage
+### Manual (recommended for now)
 
-`Ctrl+Shift+P` → **Color Theme** → **Islands Dark**
-
-Or in `settings.json`:
-
-```json
-"workbench.colorTheme": "Islands Dark"
-```
-
----
-
-## Supported Languages
-
-- JavaScript / TypeScript
-- Python, Go, Rust
-- HTML / CSS / SCSS
-- JSON, YAML, Markdown
-- And 50+ more
+1. Go to **Releases**  
+2. Download the `.vsix` file  
+3. Open VS Code  
+4. Press `Ctrl+Shift+P`  
+5. Run:  
+   ```
+   Extensions: Install from VSIX
+   ```
+6. Select the file  
 
 ---
 
-## Customization
+## 🧩 Usage
 
-Override in `settings.json`:
+1. Open Command Palette (`Ctrl+Shift+P`)  
+2. Search: `Color Theme`  
+3. Select **Npro Dark**
+
+---
+
+## 🎯 Supported Languages
+
+- JavaScript / TypeScript  
+- Python, Go, Rust  
+- HTML / CSS / SCSS  
+- JSON, YAML, Markdown  
+- and more  
+
+---
+
+## ⚙️ Customization
 
 ```json
 "workbench.colorCustomizations": {
-  "[Islands Dark]": {
+  "[Npro Dark]": {
     "editor.background": "#1e2024"
   }
 }
 ```
+
 ---
 
-## 🎨 Custom UI (Centered Activity Bar)
+## 🎨 Optional UI tweak (Centered Activity Bar)
 
-This theme can be enhanced using custom CSS to center the VS Code activity bar.
+You can center the activity bar using custom CSS.
 
-### Requirements
-
-Extension:
-- **Custom CSS and JS Loader** by *be5invis*
-
-### CSS
+**Requires:**  
+Custom CSS and JS Loader (by be5invis)
 
 ```css
 .composite-bar-container {
@@ -146,30 +125,28 @@ Extension:
 }
 ```
 
-### Usage
-
-1. Install the extension  
-2. Add the CSS via your custom loader setup  
-3. Reload VS Code
-
-> ⚠️ Note: This uses unsupported VS Code customization and may break after updates
+> ⚠️ Uses unsupported VS Code customization — may break on updates
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-1. Fork the repo
-2. Create branch: `git checkout -b feature/xyz`
-3. Test in Extension Development Host (`F5`)
-4. Submit PR
+PRs welcome. Open an issue first for bigger changes.
 
 ---
 
-## License
+## 📄 License
 
-[MIT](LICENSE)
+MIT
+
+---
+
+## 🙌 Credits
+
+Inspired by the excellent  
 [Dark Islands](https://github.com/bwya77/vscode-dark-islands)
 
 ---
 
-Made with ❤️ for late-night coding by NINO
+Made by Nino  
+https://github.com/ninoc-dev/Npro-dark
