@@ -4,16 +4,12 @@
 
 Clean, calm, and distraction-free — built for long coding sessions.
 
----
-
 ## ✨ Features
 
 - Deep background (`#181a1d`) for reduced eye strain  
 - Clean, balanced syntax highlighting  
 - Minimal UI noise  
 - High readability across languages  
-
----
 
 ## 🎨 Color Palette
 
@@ -25,8 +21,6 @@ Clean, calm, and distraction-free — built for long coding sessions.
 - Orange: `#e8a33e`  
 - Purple: `#d09cf7`  
 - Cyan: `#2aacb8`  
-
----
 
 ## 📸 Screenshots
 
@@ -87,7 +81,6 @@ code --install-extension ninoc-dev.npro-dark
 }
 ```
 
----
 
 ## 🎨 Optional UI tweak (Centered Activity Bar)
 
@@ -133,13 +126,11 @@ Custom CSS and JS Loader (by be5invis)
 
 PRs welcome. Open an issue first for bigger changes.
 
----
 
 ## 📄 License
 
 MIT
 
----
 
 ## 🙌 Credits
 
