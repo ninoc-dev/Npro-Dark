@@ -1,19 +1,23 @@
 {
-  "name": "Npro-dark",
-  "displayName": "Npro dark",
+  "name": "npro-dark",
+  "displayName": "Npro Dark",
+  "publisher": "ninoc-dev",
   "version": "0.0.1",
-  "publisher": "nino",
-  "license": "MIT",
   "engines": {
     "vscode": "^1.80.0"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/ninoc-dev/Npro-Dark"
+  },
+  "categories": ["Themes"],
   "contributes": {
     "themes": [
       {
-        "label": "Npro dark",
+        "label": "Npro Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/theme.json"
       }
     ]
   }
-}
+} 

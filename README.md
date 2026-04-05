@@ -29,9 +29,15 @@ Clean, calm, and distraction-free — built for long coding sessions.
 
 ---
 
+## 🔗 VS Code Marketplace
+
+👉 [Install Npro Dark](https://marketplace.visualstudio.com/items?itemName=ninoc-dev.npro-dark)
+
+---
+
 ## 🚀 Installation
 
-### Marketplace (coming soon)
+### Marketplace
 
 ```bash
 code --install-extension ninoc-dev.npro-dark
@@ -39,7 +45,7 @@ code --install-extension ninoc-dev.npro-dark
 
 ---
 
-### Manual (recommended for now)
+### Manual
 
 1. Go to **Releases**  
 2. Download the `.vsix` file  
@@ -51,13 +57,11 @@ code --install-extension ninoc-dev.npro-dark
    ```
 6. Select the file  
 
-
 ## 🧩 Usage
 
 1. Open Command Palette (`Ctrl+Shift+P`)  
 2. Search: `Color Theme`  
 3. Select **Npro Dark**
-
 
 ## 🎯 Supported Languages
 
@@ -66,7 +70,6 @@ code --install-extension ninoc-dev.npro-dark
 - HTML / CSS / SCSS  
 - JSON, YAML, Markdown  
 - and more  
-
 
 ## ⚙️ Customization
 
@@ -77,7 +80,6 @@ code --install-extension ninoc-dev.npro-dark
   }
 }
 ```
-
 
 ## 🎨 Optional UI tweak (Centered Activity Bar)
 
@@ -121,11 +123,9 @@ Custom CSS and JS Loader (by be5invis)
 
 PRs welcome. Open an issue first for bigger changes.
 
-
 ## 📄 License
 
 MIT
-
 
 ## 🙌 Credits
 
